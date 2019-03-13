@@ -1,0 +1,294 @@
+*{
+	margin: 0px;
+}
+
+body{
+	background-image:url(background.jpg), url(pattern.jpg), url(pattern2.jpg);
+	background-size: 100%;
+	background-position: top , center, bottom;
+	background-repeat: no-repeat; ;
+}
+.button{
+
+	/*style*/
+	font-family: 'Kaushan Script', cursive;
+	font-size: 20px;
+	color:white;
+
+	background-color: #444444;
+
+	padding-left:10px;
+	padding-right:10px;
+
+	min-height: 40px;
+
+	border:none;
+
+	/*position*/
+	position: fixed;
+	margin-left: 310px;
+	top:0px;
+	
+	/*hover effekt*/
+	opacity: 0.4;
+	transition: 0.2s;
+	
+
+	
+}
+.button:hover{
+	/*hover effekt*/
+	opacity: 1;
+	background-color: #9b0000;
+}
+
+
+
+
+
+#main{
+	
+	/*style*/
+	box-shadow:5px -5px 40px;
+	border-radius: 10px;
+
+	/*sizing*/
+	min-height: 300px;
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 14.75%;
+
+	/*background style*/
+	opacity: 1;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(background-mini.png);
+}
+#main button{
+	
+
+	/*style*/
+	font-family: 'Kaushan Script', cursive;
+	font-size: 10px;
+	color:white;
+
+	background-color:#9b0000 ;
+
+	padding-left:5px;
+	padding-right:5px;
+
+	min-height: 40px;
+
+	border:none;
+	border-bottom-right-radius: 15px;
+	border-bottom-right-radius: 15px;  
+
+
+	/*position*/
+	float:right;
+	float: right;
+	margin-right: 20px;
+	top:0px;
+
+
+
+}
+
+
+
+#top{
+
+	/*size*/
+	min-height: 820px;
+	
+	/*style*/
+	font-family: 'Chonburi', cursive;
+	font-size: 100px;
+	color:white;
+}
+
+
+
+
+#info{
+	/*size*/
+	min-height: 600px;
+
+	/*background*/
+	background-color: #020202;
+}
+
+
+
+#about{
+	min-height: 600px;
+	background-color: #555
+}
+
+
+
+
+#footer{
+	background-image: url(pattern.png);
+	
+	min-height: 100px;
+}
+
+	/*TODO SITE*/
+
+#TODOli{
+	
+	display: block;
+	margin-top:90px;
+	padding-top: 20px; 
+	padding-bottom: 20px;
+	width: 80%;
+	margin-left: 50px;
+}
+.TODO{
+	min-height: 100px;
+	width: 70%;
+	height: auto;
+	background-color:#191919;
+	margin-top: 15px;
+	margin-left: 90px;
+	border-bottom: 1px solid grey;
+	padding: 15px;
+	padding-right: 150px;
+	border-radius: 15px;
+}
+
+.active{
+	border-color: green;
+	border-width: 2px;
+}
+
+.TODO h1{
+font-family: 'Rajdhani', sans-serif;	
+	margin-top:-5px;
+	margin-bottom:-10px;
+	color:#b5b5b5;
+	opacity: 1
+
+}
+.TODO p{
+	color:#b5b5b5;
+	font-size: 15px;
+	font-family: 'Alegreya', serif;
+
+}
+
+
+
+
+@media only screen and (max-width:1600px) {
+
+	#top{
+		min-height:650px;
+		
+	}
+	#info{
+		min-height: 468px;
+		
+	}
+	#about{
+		min-height: 468px;
+		
+	}
+}
+@media only screen and (max-width:1440px) {
+
+	#top{
+	min-height:585px;
+		
+	}
+	#info{
+		min-height: 420px;
+		
+	}
+	#about{
+		min-height: 420px;
+		
+	}
+
+
+
+}
+@media only screen and (max-width:1366px) {
+
+	#top{
+		min-height:552px;
+		
+	}
+	#info{
+		min-height: 396px;
+		
+	}
+	#about{
+		min-height: 396px;
+		
+	}
+
+}
+@media only screen and (max-width:1280px) {
+
+	#top{
+		min-height:511px;
+		
+	}
+	#info{
+		min-height: 366px;
+		
+	}
+	#about{
+		min-height: 366px;
+		
+	}
+}
+@media only screen and (max-width:1152px) {
+	#top{
+		min-height:462px;
+		
+	}
+	#info{
+		min-height: 330px;
+		
+	}
+	#about{
+		min-height: 330px;
+		
+	}
+
+}
+@media only screen and (max-width:1024px) {
+
+	#top{
+		min-height:404px;
+		
+	}
+	#info{
+		min-height: 288px;
+		
+	}
+	#about{
+		min-height: 288px;
+		
+	}
+
+@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {
+
+	#top{
+		min-height:434px;
+		
+	}
+	#info{
+		min-height: 318px;
+		
+	}
+	#about{
+		min-height: 318px;
+		
+	}
+}
+
