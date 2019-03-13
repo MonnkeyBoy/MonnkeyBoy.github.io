@@ -26,7 +26,7 @@ body{
 
 	/*position*/
 	position: fixed;
-	margin-left: 310px;
+	margin-left: 380px;
 	top:0px;
 	
 	/*hover effekt*/
@@ -65,7 +65,7 @@ body{
 	background-repeat: no-repeat;
 	background-image: url(background-mini.png);
 }
-#main button{
+#top button{
 	
 
 	/*style*/
@@ -87,7 +87,7 @@ body{
 
 	/*position*/
 	float:right;
-	float: right;
+	margin-left: -1000px;
 	margin-right: 20px;
 	top:0px;
 
@@ -107,6 +107,14 @@ body{
 	font-size: 100px;
 	color:white;
 }
+#top header{
+	background-color: green;
+	height: 4px;
+	width: 30px;
+	display: block;
+
+}
+
 
 
 
